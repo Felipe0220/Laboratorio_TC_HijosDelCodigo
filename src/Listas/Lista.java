@@ -11,6 +11,7 @@ package Listas;
 public interface Lista <V> {
     public V buscar(Object id);
     
-    public int contar();
+    public boolean eliminar(V v);
     
+    public boolean agregar(V v);
 }
