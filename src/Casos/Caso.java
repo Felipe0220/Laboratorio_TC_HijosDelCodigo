@@ -4,13 +4,15 @@
  */
 package Casos;
 
+import Victimas.Victima;
+
 /**
  *
  * @author UTN
  */
 public class Caso {
     private int id;
-    private Victima id;
+    private Victima genero;
     private String Description;
     private String tipo;
     private Prioridad prioridad;
@@ -19,9 +21,6 @@ public class Caso {
         return id;
     }
 
-    public Victima getId() {
-        return id;
-    }
 
     public String getDescription() {
         return Description;
@@ -35,8 +34,7 @@ public class Caso {
         return prioridad;
     }
 
-    public Caso(int id, Victima id, String Description, String tipo, Prioridad prioridad) {
-        this.id = id;
+    public Caso(int id, String Description, String tipo, Prioridad prioridad) {
         this.id = id;
         this.Description = Description;
         this.tipo = tipo;
