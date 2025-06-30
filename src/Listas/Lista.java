@@ -10,4 +10,7 @@ package Listas;
  */
 public interface Lista <V> {
     public V buscar(Object id);
+    
+    public int contar();
+    
 }
