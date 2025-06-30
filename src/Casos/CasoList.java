@@ -11,14 +11,21 @@ import Listas.Lista;
  * @author UTN
  */
 public class CasoList implements Lista<Caso> {
-    private static String Casos[];
+    private static  Caso list[];
+        
+        
     @Override
-    public Caso buscar(Object id) {
+    public boolean eliminar(Caso v) {
         throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
     }
 
     @Override
-    public int contar() {
+    public boolean agregar(Caso v) {
+        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+    }
+
+    @Override
+    public Caso buscar(Object id) {
         throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
     }
     
