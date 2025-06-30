@@ -2,12 +2,12 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-
+package Trabajo_sociales;
 /**
  *
  * @author kevin
  */
-public class Trabajor_social {
+public class Trabajador_social {
 private String cedula; 
 private String nombre;
 private String correo;
@@ -54,7 +54,7 @@ private String canton;
         this.canton = canton;
     }
 
-    public Trabajor_social(String cedula, String nombre, String correo, String telefono, String canton) {
+    public Trabajador_social(String cedula, String nombre, String correo, String telefono, String canton) {
         this.cedula = cedula;
         this.nombre = nombre;
         this.correo = correo;
